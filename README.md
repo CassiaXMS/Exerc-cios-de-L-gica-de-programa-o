@@ -1,2 +1,2 @@
-# Exerc-cios-de-L-gica-de-programa-o
+# Exercícios de lógica de programação
 Linguagens de programação com exercícios de lógica (Curso Udemy)
