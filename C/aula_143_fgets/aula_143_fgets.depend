@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1650812810 source:c:\users\cliente\onedrive\programas_c_c++\udemy\c\aula_143_fgets\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

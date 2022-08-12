@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1651723406 source:c:\users\cliente\onedrive\programas_c_c++\udemy\c++\aula183_alturas_vetores\main.cpp
+	<iostream>
+	<string>
+	<iomanip>
+

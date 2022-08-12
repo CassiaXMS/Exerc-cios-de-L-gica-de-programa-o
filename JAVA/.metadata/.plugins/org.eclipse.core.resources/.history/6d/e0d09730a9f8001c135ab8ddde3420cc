@@ -1,0 +1,118 @@
+// OPERAÇÕES COM MATRIZES (ordem 2)  em Java
+// Autor: Cassia  30/06/2022
+
+package projeto_operacao_matrizes;
+import java.util.Scanner;
+
+public class Main {
+	
+	public static final int LINHA = 2; // Constantes
+	public static final int COLUNA = 2;
+	
+		public static void main(String[] args) {
+			Scanner sc = new Scanner(System.in);
+			
+			//Definindo as variáveis
+			int[][] Matriz1 = new int[LINHA][COLUNA];
+			int[][] Matriz2 = new int[LINHA][COLUNA];
+			int[][] MatrizSoma = new int[LINHA][COLUNA];
+			
+			int i, j;
+			int opcao;
+			int loop=1; //Variavel definida V
+			
+			System.out.println();
+			
+			System.out.println(" <<! ------ OPERAÇÕES DE MATRIZES INTEIRAS DE ORDEM 2X2 ------ !>> ");
+			System.out.println();
+			
+			System.out.println("Dados da  MATRIZ 1: ");
+			for(i=0; i<LINHA; i++) {
+				for(j=0; j<COLUNA; j++) {
+					System.out.print(" Elemento [" + (i+1) +  "," + (j+1) + "]: ");
+					Matriz1[i][j] = sc.nextInt();
+				}
+			}
+			System.out.println();
+			
+			System.out.println("Dados da  MATRIZ 2: ");
+			for(i=0; i<LINHA; i++) {
+				for(j=0; j<COLUNA; j++) {
+					System.out.print(" Elemento [" + (i+1) + "," + (j+1) + "]: ");
+					Matriz2[i][j] = sc.nextInt();
+				}
+			}
+			System.out.println();
+			
+			//imprimindo Matriz 1 na tela
+			System.out.println("MATRIZ 1 digitada: ");
+			for(i=0; i<LINHA; i++) {
+				System.out.print(" | ");
+				for(j=0; j<COLUNA; j++) {
+					System.out.print(" " + Matriz1[i][j] + " | ");
+				}
+				System.out.println();
+			}
+			System.out.println();
+			
+			//imprimindo Matriz 2 na tela
+			System.out.println("MATRIZ 2 digitada: ");
+			for(i=0; i<LINHA; i++) {
+				System.out.print(" | ");
+				for(j=0; j<COLUNA; j++) {
+					System.out.print(Matriz2[i][j] + " |  ");
+				}
+				System.out.println();
+			}
+			System.out.println();
+			
+			System.out.println("Pressione ENTER para continuar! ");
+			
+			System.out.println();
+			System.out.println();
+			
+			//while(loop == 1) {
+				System.out.println("******* CALCULADORA *******");
+				System.out.println(" Menu de operações:");
+				System.out.println(" 1 - SOMA ");
+				System.out.println(" 2 - SUBTRAÇÃO ");
+				System.out.println(" 3 - MULTIPLICAÇÃO ");
+				System.out.println(" 4 - TRANSPOSTA ");
+				System.out.println(" 5 - SAIR ");
+				
+				System.out.print("Qual operacao deseja, selecione um numero: ");
+				//opcao = sc.nextInt();
+				
+				//switch(opcao) {
+					//case 1: //SOMA
+						for(i=0; i<LINHA; i++) {
+							for(j=0; j<COLUNA; j++) {
+								MatrizSoma[i][j] = Matriz1[i][j] + Matriz2[i][j];
+							}
+						}
+						
+						//Imprimindo a soma
+						for(i=0; i<LINHA; i++) {
+							System.out.print(" | ");
+							for(j=0; j<COLUNA; j++) {
+								System.out.print(MatrizSoma + " | ");
+							}
+							System.out.println();
+						}
+						
+						
+						
+						
+						
+						
+						
+						
+						
+				//}//Fim do Switch case
+			//}
+			
+			
+			
+	}
+
+}

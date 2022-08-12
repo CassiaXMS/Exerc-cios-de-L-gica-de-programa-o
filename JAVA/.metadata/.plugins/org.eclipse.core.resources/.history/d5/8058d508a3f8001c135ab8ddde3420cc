@@ -1,0 +1,43 @@
+// OPERAÇÕES COM MATRIZES (ordem 2)  em Java
+// Autor: Cassia  30/06/2022
+
+package projeto_operacao_matrizes;
+import java.util.Scanner;
+
+public class Main {
+	
+	public static final int LINHA = 2; // Constantes
+	public static final int COLUNA = 2;
+	
+		public static void main(String[] args) {
+			Scanner sc = new Scanner(System.in);
+			
+			//Definindo as variáveis
+			int[][] Matriz1 = new int[LINHA][COLUNA];
+			int[][] Matriz2 = new int[LINHA][COLUNA];
+			
+			int i, j;
+			
+			System.out.println(" ----- OPERAÇÕES DE MATRIZES INTEIRAS DE ORDEM 2X2 ----- ");
+			System.out.println();
+			
+			System.out.println("Dados da  MATRIZ 1: ");
+			for(i=0; i<LINHA; i++) {
+				for(j=0; j<COLUNA; j++) {
+					System.out.println(" Elemento [" + (i+1)+  "," + j+1 + "]: ");
+					Matriz1[LINHA][COLUNA] = sc.nextInt();
+				}
+			}
+			System.out.println();
+			
+			System.out.println(" Dados da  MATRIZ 2: ");
+			for(i=0; i<LINHA; i++) {
+				for(j=0; j<COLUNA; j++) {
+					System.out.println("Elemento [" + i+1 + "," + j+1 + "]: ");
+					Matriz2[LINHA][COLUNA] = sc.nextInt();
+				}
+			}
+
+	}
+
+}

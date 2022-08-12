@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1650827060 source:c:\users\cliente\onedrive\programas_c_c++\udemy\c\aula_152_ex_terreno\main.c
+	<stdio.h>
+	<stdlib.h>
+

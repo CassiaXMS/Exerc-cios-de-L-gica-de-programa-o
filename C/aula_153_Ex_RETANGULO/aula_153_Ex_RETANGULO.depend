@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1650828009 source:c:\users\cliente\onedrive\programas_c_c++\udemy\c\aula_153_ex_retangulo\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+

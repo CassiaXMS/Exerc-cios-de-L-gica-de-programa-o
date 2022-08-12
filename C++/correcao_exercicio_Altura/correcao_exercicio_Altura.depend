@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1651854552 source:c:\users\cliente\onedrive\programas_c_c++\udemy\c++\correcao_exercicio_altura\main.cpp
+	<iostream>
+	<iomanip>
+	<string>
+

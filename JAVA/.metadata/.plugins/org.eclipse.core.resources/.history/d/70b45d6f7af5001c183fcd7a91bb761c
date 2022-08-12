@@ -1,0 +1,23 @@
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		
+		double bse, altura;
+		
+		System.out.println("BASE DO RETANGULO: ");
+		base = nextDouble();
+		System.out.println("ALTURA DO RETANGULO: ");
+		altura = nextDouble();
+		
+		System.out.println();
+		
+		System.out.println("AREA = " + base*altura);
+
+	}
+
+}

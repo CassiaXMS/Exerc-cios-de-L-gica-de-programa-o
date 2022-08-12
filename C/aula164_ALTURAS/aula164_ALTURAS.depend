@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1651288408 source:c:\users\cliente\onedrive\programas_c_c++\udemy\c\aula164_alturas\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
